@@ -1,0 +1,4 @@
+let imBox =
+    function generateQR() {
+
+    }
