@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAKE A QR CODE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,18 +15,16 @@
 
     <div class="container">
         <p>Enter Your Text Or Url</p>
-        <input type="text" placeholder=" text or url">
+        <input type="text" placeholder=" text or url" id="qrText">
 
         <div id="imgBox">
-            <img src="" id="qrImge">
+            <img src="" id="qrImage">
         </div>
-        <button>Generat Qr Code</button>
+        <button onclick="generateQR()">Generate QR Code</button>
     </div>
 
-
-
-
-    <script src="script.js"></script>
+    <script src="script.js">
+    </script>
 
 </body>
 
